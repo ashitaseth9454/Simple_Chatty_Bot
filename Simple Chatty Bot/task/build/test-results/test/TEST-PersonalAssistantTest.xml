@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PersonalAssistantTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-10T09:10:31" hostname="AVS" time="0.228">
+<testsuite name="PersonalAssistantTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-10T09:26:16" hostname="AVS" time="0.161">
   <properties/>
-  <testcase name="start" classname="PersonalAssistantTest" time="0.228"/>
+  <testcase name="start" classname="PersonalAssistantTest" time="0.161"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Hello! My name is Aid.
@@ -10,7 +10,7 @@ Please, remind me your name.
 >Marry
 What a great name you have, Marry!
 Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
+Say me remainders of dividing your age by 3, 5 and 7.
 >1 0 5
 Your age is 40; that's a good time to start programming!
 Now I will prove to you that I can count to any number you want.
@@ -26,7 +26,21 @@ Now I will prove to you that I can count to any number you want.
 8!
 9!
 10!
-Completed, have a nice day!
+Let's test your programming knowledge.
+ _____ is used to find and fix bugs in the Java programs.
+
+1) JVM
+2) JRE
+3) JDK
+4) JDB
+>1
+Wrong answer! ,Please try again.
+>2
+Wrong answer! ,Please try again.
+>3
+Wrong answer! ,Please try again.
+>4
+Congratulations, have a nice day!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
